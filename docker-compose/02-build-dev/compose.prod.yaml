@@ -1,0 +1,14 @@
+# compose.prod.yaml — explicit in prod
+# Usage: docker compose -f compose.yaml -f compose.prod.yaml up -d
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+      args:
+        NODE_ENV: production
+    ports:
+      - '3000:3000'
+    environment:
+      NODE_ENV: production
+    restart: unless-stopped

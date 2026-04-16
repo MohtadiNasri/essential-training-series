@@ -11,8 +11,9 @@ Hands-on lab guides for modern DevOps tooling — one command at a time.
 | # | Course | Engine | Exercises | Duration | Level |
 |---|--------|--------|-----------|----------|-------|
 | 01 | [Docker](./docker/) | v29 | 8 | 4h | Beginner+ |
-| 02 | [Helm](./helm/) | v3 | — | — | Coming soon |
-| 03 | [k3s](./k3s/) | v1.x | — | — | Coming soon |
+| 02 | [Docker Compose](./docker-compose/) | v2 | 8 | 4h | Intermediate |
+| 03 | [Helm](./helm/) | v3 | — | — | Coming soon |
+| 04 | [k3s](./k3s/) | v1.x | — | — | Coming soon |
 
 ---
 

@@ -1,0 +1,16 @@
+# compose.override.yaml — auto-loaded in dev (docker compose up)
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+      args:
+        NODE_ENV: development
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./api:/app
+      - /app/node_modules
+    environment:
+      NODE_ENV: development
+    command: npm run dev
