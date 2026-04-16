@@ -1,0 +1,19 @@
+# compose.yaml
+services:
+  web:
+    image: nginx:1.27-alpine
+    ports:
+      - '8080:80'
+    volumes:
+      - ./html:/usr/share/nginx/html:ro
+
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: myapp
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
