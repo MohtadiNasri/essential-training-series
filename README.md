@@ -2,7 +2,7 @@
 
 Hands-on lab guides for modern DevOps tooling — one command at a time.
 
-> Follow along on [LinkedIn](https://www.linkedin.com/in/) | GitHub: [@MohtadiNasri](https://github.com/MohtadiNasri)
+> Follow along on [LinkedIn](https://www.linkedin.com/in/mohtadinasri/) | GitHub: [@MohtadiNasri](https://github.com/MohtadiNasri)
 
 ---
 
