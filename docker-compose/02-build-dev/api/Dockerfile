@@ -1,8 +1,9 @@
-FROM node:22-alpine
-ARG NODE_ENV=production
-ENV NODE_ENV=${NODE_ENV}
+FROM node:20-alpine
 WORKDIR /app
-COPY package*.json .
+COPY package.json .
 RUN npm install
 COPY . .
-CMD ["node", "app.js"]
+ARG NODE_ENV=development
+ENV NODE_ENV=$NODE_ENV
+EXPOSE 3000
+CMD ["node", "server.js"]
