@@ -39,6 +39,18 @@ essential-training-series/
 │   ├── 05-volumes/
 │   ├── 06-best-practices/
 │   └── 07-compose/
+├── docker-compose/
+│   ├── 01-first-stack/
+│   ├── 02-build-dev/
+│   ├── 03-networks/
+│   ├── 04-volumes/
+│   ├── 05-healthchecks/
+│   ├── 06-profiles/
+│   ├── 07-scaling/
+│   └── 08-debugging/
+├── Docs Essential Training/
+│   ├── Docker_Essential_Training.pdf
+│   └── DockerCompose_Essential_Training.pdf
 ├── helm/
 └── k3s/
 ```

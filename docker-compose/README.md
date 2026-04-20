@@ -12,10 +12,10 @@
 | 02 | [Build & Dev Workflow](./02-build-dev/) | `compose.yaml`, `compose.override.yaml`, `compose.prod.yaml`, `api/` |
 | 03 | [Networks & Service Discovery](./03-networks/) | `compose.yaml` |
 | 04 | [Volumes & Data Management](./04-volumes/) | `compose.yaml` |
-| 05 | [Health Checks & Dependencies](./05-healthchecks/) | `compose.yaml`, `api/` |
-| 06 | [Profiles & Environment Mgmt](./06-profiles/) | `compose.yaml`, `.env.example`, `api/` |
-| 07 | [Scaling & Production](./07-scaling/) | `compose.yaml`, `nginx.conf` |
-| 08 | Monitoring & Debugging | commands only — no files needed |
+| 05 | [Health Checks & Dependencies](./05-healthchecks/) | `compose.yaml` |
+| 06 | [Profiles & Environment Mgmt](./06-profiles/) | `compose.yaml`, `.env`, `.env.example` |
+| 07 | [Scaling & Production](./07-scaling/) | `compose.yaml` |
+| 08 | [Monitoring & Debugging](./08-debugging/) | `compose.yaml` |
 
 ## Quick start
 
