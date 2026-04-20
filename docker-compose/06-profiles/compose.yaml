@@ -1,0 +1,19 @@
+services:
+  web:
+    image: nginx:1.27-alpine
+    ports:
+      - '8080:80'
+
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_PASSWORD: secret
+    profiles:
+      - backend
+
+  adminer:
+    image: adminer
+    ports:
+      - '8081:8080'
+    profiles:
+      - tools
