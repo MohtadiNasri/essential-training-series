@@ -53,6 +53,10 @@ essential-training-series/
 │   └── DockerCompose_Essential_Training.pdf
 ├── helm/
 └── k3s/
+    ├── 03-deployments/
+    ├── 04-ingress/
+    ├── 05-storage/
+    └── 08-ha/
 ```
 
 ---
