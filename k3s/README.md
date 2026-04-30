@@ -1,6 +1,6 @@
-# K3s Essential Training — Lightweight Kubernetes in Production
+# K3s Essential Training — Lightweight Kubernetes Foundations
 
-8 hands-on exercises covering the full K3s workflow.
+8 hands-on exercises covering the essential K3s workflow.
 
 > Follow along on [LinkedIn](https://www.linkedin.com/in/mohtadinasri/) | GitHub: [@MohtadiNasri](https://github.com/MohtadiNasri)
 
