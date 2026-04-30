@@ -9,11 +9,11 @@
 | # | Topic | Files |
 |---|-------|-------|
 | 01 | Installation & Configuration | commands only |
-| 02 | Multi-Node Cluster | commands only |
+| 02 | Multi-Node Cluster | `ping-test2.yaml` |
 | 03 | [Kubernetes Deployments](./03-deployments/) | `nginx-deploy.yaml` |
-| 04 | [Ingress & Traefik](./04-ingress/) | `nginx-ingress.yaml` |
+| 04 | [Ingress & Traefik](./04-ingress/) | `nginx-ingress.yaml`, `traefik-dashboard.yaml` |
 | 05 | [Persistent Storage](./05-storage/) | `postgres-pvc.yaml`, `postgres-deploy.yaml` |
-| 06 | Secrets & ConfigMaps | commands only |
+| 06 | [Secrets & ConfigMaps](./06-secrets/) | `app-env-test.yaml` |
 | 07 | Monitoring & Debugging | commands only |
 | 08 | [High Availability](./08-ha/) | `resource-quota.yaml` |
 
