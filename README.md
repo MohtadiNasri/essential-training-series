@@ -12,7 +12,7 @@ Hands-on lab guides for modern DevOps tooling — one command at a time.
 |---|--------|--------|-----------|----------|-------|
 | 01 | [Docker](./docker/) | v29 | 8 | 4h | Beginner+ |
 | 02 | [Docker Compose](./docker-compose/) | v2 | 8 | 4h | Intermediate |
-| 03 | [k3s](./k3s/) | v1.x | — | — | Coming soon |
+| 03 | [K3s](./k3s/) | v1.x | 8 | 4h | Intermediate |
 | 04 | [Helm](./helm/) | v3 | — | — | Coming soon |
 
 ---
@@ -50,12 +50,15 @@ essential-training-series/
 │   └── 08-debugging/
 ├── Docs Essential Training/
 │   ├── Docker_Essential_Training.pdf
-│   └── DockerCompose_Essential_Training.pdf
+│   ├── DockerCompose_Essential_Training.pdf
+│   └── K3s_Essential_Training.pdf
 ├── helm/
 └── k3s/
+    ├── 02-multi-node/
     ├── 03-deployments/
     ├── 04-ingress/
     ├── 05-storage/
+    ├── 06-secrets/
     └── 08-ha/
 ```
 
